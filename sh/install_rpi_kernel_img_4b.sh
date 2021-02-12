@@ -11,5 +11,4 @@ cd linux
 make O=$OUTPUT modules_install
 cp $OUTPUT/arch/arm/boot/dts/*.dtb /boot/
 cp $OUTPUT/arch/arm/boot/dts/overlays/*.dtb* /boot/overlays/
-cp $OUTPUT/arch/arm/boot/dts/overlays/README /boot/overlays/
 cp $OUTPUT/arch/arm/boot/zImage /boot/kernel7l.img
