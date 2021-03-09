@@ -16,3 +16,7 @@ git push -u origin main
 git diff --staged  
 - to exit from diff view, press q
 
+6. git pull
+git pull
+
+
