@@ -3,7 +3,7 @@ linux command note
 ### wifi configuration
 
 /etc/wpa_supplicant/wpa_supplicant.config   
-wpa -passphrase _wifi_name_ _wifi_password_   
+wpa_passphrase _wifi_name_ _wifi_password_   
 scan_ssid=1   
 key_mgmt=WPA-PSK   
 
